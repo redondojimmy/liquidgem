@@ -1,0 +1,144 @@
+html {
+  background-color: lightgrey;
+}
+nav {
+	height: 60px;
+	left: 0;
+	position: fixed;
+	right: 0;
+	top: 0;
+	z-index: 100;
+  border-bottom: 1px solid #737373;
+  width: 97.5%;
+  margin-left: 15px;
+}
+nav i {
+  color: #ff6666;
+}
+nav > a {
+	color:  black;
+	font-family: 'Kaushan Script', cursive;
+	font-size: 24px;
+	font-weight: 600;
+	left: 25px;
+	position: absolute;
+	text-align: left;
+	text-decoration: none;
+	top: 10px;
+  padding-left: 10px;
+}
+nav a:hover,
+nav a:focus {
+  color: white;
+}
+a > span {
+	font-family: 'Lato', sans-serif;
+	color:  #cfc91d;
+	text-align: left;
+	font-weight: 200;
+}
+nav ul {
+	position: absolute;
+	right: 25px;
+	top:5px;
+}
+nav li {
+	display: inline-block;
+	padding:0 15px;
+  font-family: 'Gudea', sans-serif;
+}
+nav li > a {
+	color: black;
+	text-decoration: none;
+}
+
+nav li > a:hover,
+nav li > a:focus {
+	color: #fff;
+}
+header {
+  text-align: center;
+  margin-top: 85px;
+  font-family: 'Gudea', sans-serif;
+  font-size: 25px;
+}
+header span {
+  color: #ff6666;
+}
+header div {
+  text-align: center;
+  padding-top: 15px;
+  font-size: 18px;
+}
+section.one {
+  height: 550px;
+}
+.div1 img {
+  height: 300px;
+width: 1332px;
+margin: 30px 3px 0 3px;
+border-radius: 15px;
+}
+
+.div2 {
+  width: 45%;
+  text-align: center;
+  font-size: 23px;
+  color: #ff6666;
+  font-weight: bold;
+  font-family: 'Kaushan Script', cursive;
+  float: left;
+}
+div p.two {
+font-size: 17px;
+text-align: left;
+color: black;
+font-weight: normal;
+padding-left: 10px;
+font-family: 'Titillium Web', sans-serif;
+}
+p.two span {
+  color: #ff6666;
+}
+.div3 {
+  width: 45%;
+  text-align: center;
+  font-size: 23px;
+  color: #ff6666;
+  font-weight: bold;
+  font-family: 'Kaushan Script', cursive;
+  float: right;
+}
+div p.four {
+font-size: 17px;
+text-align: left;
+color: black;
+font-weight: normal;
+padding-left: 10px;
+font-family: 'Titillium Web', sans-serif;
+}
+.div4{
+margin-top: 25px;
+  width: 80%;
+  height: 220px;
+}
+li {
+  display: inline-block;
+  font-family: 'Titillium Web', sans-serif;
+}
+li img {
+  width: 160px;
+  height: 160px;
+}
+li p {
+  font-size: 20px;
+  margin: 0 auto;
+  background-color: white;
+}
+div.img1 {
+  border: 1px solid black;
+}
+div.img1 span {
+  font-size: 15px;
+  color: #ff6666;
+}

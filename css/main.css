@@ -97,7 +97,7 @@ font-weight: normal;
 padding-left: 10px;
 font-family: 'Titillium Web', sans-serif;
 }
-p.two span {
+p span {
   color: #ff6666;
 }
 .div3 {
@@ -122,23 +122,92 @@ margin-top: 25px;
   width: 80%;
   height: 220px;
 }
+ul {
+  padding-left: 45px;
+}
 li {
   display: inline-block;
   font-family: 'Titillium Web', sans-serif;
+  height: auto;
+  background-color: lightgrey;
+  padding: 10px 28px 28px 10px;
+
 }
 li img {
-  width: 160px;
-  height: 160px;
+  width: 200px;
+  height: 135px;
+  border-radius: 15px 15px 0 0;
+
+}
+
+.textbox {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  top: -6px;
 }
 li p {
   font-size: 20px;
   margin: 0 auto;
   background-color: white;
+  border-radius: 0 0 15px 15px;
 }
-div.img1 {
-  border: 1px solid black;
+div.img4 {
+  image-orientation: portrait;
 }
-div.img1 span {
-  font-size: 15px;
+div.img1,
+div.img2,
+div.img3,
+div.img4,
+div.img5 {
+  background-color: lightgrey;
+
+}
+div.div4 {
+  width: 95%;
+  text-align: center;
+}
+section.textbox {
+  text-align: center;
+}
+section.three {
+  background-color: #333333;
+}
+div.div6 {
+  width: 45%;
+}
+.three p {
+padding: 10px 0 10px 10px;
+  font-size: 23px;
+  color: #ff6666;
+  font-weight: bold;
+  font-family: 'Kaushan Script', cursive;
+  margin-bottom: -4px;
+}
+input {
+width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0 0 10px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.message {
+width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0 0 10px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    height: 140px;
+}
+div.div7 i {
+  width: 35%;
+  float: right;
+  margin: 0 auto;
+  height: 40px;
+  width: 40px;
   color: #ff6666;
 }

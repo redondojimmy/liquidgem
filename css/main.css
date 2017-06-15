@@ -172,10 +172,23 @@ section.textbox {
 }
 section.three {
   background-color: #333333;
+  height: 400px;
 }
 div.div6 {
-  width: 45%;
-}
+  	float: left;
+  	margin: 3% 0;
+  	padding-left: 0px;
+  	padding-bottom: 100px;
+  	width: 48%;
+    margin-top: 0;
+  }
+  div.div7 {
+  	float: left;
+  	margin: 0 auto;
+  	padding: 0 0 70px 20px;
+  	width: 45%;
+  }
+
 .three p {
 padding: 10px 0 10px 10px;
   font-size: 23px;
@@ -203,11 +216,23 @@ width: 100%;
     box-sizing: border-box;
     height: 140px;
 }
-div.div7 i {
-  width: 35%;
-  float: right;
-  margin: 0 auto;
+div.div7 {
+  height: 360px;
+}
+div.div7 img {
+  color:#ff6666;
+  background-color: #333333;
   height: 40px;
   width: 40px;
-  color: #ff6666;
+  border-radius: 20px;
+
+}
+.icons {
+  margin: 150px 0 10px 240px;
+ padding: 10px 0 10px 10px;
+ float: right;
+}
+.div7 li{
+  background-color: #333333;
+  display: inline-block;
 }
